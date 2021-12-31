@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#f5e6e6), to(#fafbdc));
+  background-image: linear-gradient(to right top, #f5e6e6, #fafbdc);
+  min-height: 100vh;
+}
+
+body #app {
+  text-align: center;
+}
+
+body #app h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: #f10769;
+  color: white;
+  display: inline-block;
+  padding: .5em 1em;
+  margin: .5em;
+  border-radius: 30% 70% 15% 85% / 53% 43% 57% 47%;
+}
+
+body #app div {
+  text-align: left;
+  text-transform: capitalize;
+}
+
+body #app .input-feld {
+  padding: 2em 0;
+}
+
+body #app .input-feld input {
+  border: 1px solid #f10769;
+  padding: .5em;
+  border-radius: 1em;
+  outline: 0;
+}
+
+body #app .input-feld button {
+  background-color: #f10769;
+  color: white;
+  font-weight: bold;
+  outline: 0;
+  border: 0;
+  border-radius: 1em;
+  padding: .3em .5em;
+  font-size: 1em;
+  cursor: pointer;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+body #app .input-feld button:hover {
+  background-color: #fa4e96;
+}
+
+body #app .all-task {
+  padding: 1em 0;
+}
+
+body #app .all-task div:first-of-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: .5em;
+}
+
+body #app .all-task ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid gray;
+  border-radius: 1em;
+  padding: .5em;
+  margin-bottom: .5em;
+}
+
+body #app .all-task ul li span {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+body #app .all-task ul li button {
+  margin: 0 .2em;
+  min-width: 25px;
+  border: 0;
+  border-radius: 50% 70% 55% 85% / 53% 43% 57% 47%;
+  padding: .5em;
+  color: white;
+  cursor: pointer;
+}
+
+body #app .all-task ul li button:first-of-type {
+  background-color: #02a049;
+}
+
+body #app .all-task ul li button:last-of-type {
+  background-color: #f10a02;
+}
+
+body #app .complete {
+  padding-bottom: 1em;
+}
+
+body #app .complete h3 {
+  padding-bottom: .3em;
+}
+
+body #app .complete ul li {
+  border: 1px solid #02a049;
+  border-radius: 1em;
+  padding: .5em;
+  margin-bottom: .5em;
+}
+
+body #app .uncomplete h3 {
+  padding-bottom: .3em;
+}
+
+body #app .uncomplete ul li {
+  border: 1px solid #f10a02;
+  border-radius: 1em;
+  padding: .5em;
+  margin-bottom: .5em;
+}
+
+.complete-task {
+  -webkit-text-decoration: 2px line-through;
+          text-decoration: 2px line-through;
+}
+
+.complete-btn {
+  background-color: #025da8 !important;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+/*# sourceMappingURL=main.css.map */
